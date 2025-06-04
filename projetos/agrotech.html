@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech – Integração de Máquinas Agrícolas | Pedro Cerqueira</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/project-detail.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Pedro Cerqueira</div>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Início</a></li>
+                <li><a href="../index.html#projects">Projetos</a></li>
+                <li><a href="../index.html#ml">Machine Learning</a></li>
+                <li><a href="../index.html#skills">Habilidades</a></li>
+                <li><a href="../index.html#education">Formação</a></li>
+                <li><a href="../index.html#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Project Detail Section -->
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-detail-header">
+                <h1>AgroTech – Integração de Máquinas Agrícolas</h1>
+                <p>Sistema inteligente de interoperabilidade para o agronegócio brasileiro</p>
+            </div>
+
+            <div class="project-detail-img">
+                <img src="https://public.youware.com/users-website-assets/prod/444b9f51-dad3-41fd-853b-e0f9aa4f249a/g950250ded38c91a099a3fa57a3f93c8cc7ddefb342724863ab6719a4ea5bf0db4d75fc1853f79df9d701779838677be8074bc380d24bd42115209f751e3364c3_1280.jpg" alt="AgroTech – Integração de Máquinas Agrícolas">
+            </div>
+
+            <div class="project-detail-content">
+                <div class="project-description">
+                    <h2>Contexto e Problema</h2>
+                    <p>O agronegócio brasileiro enfrenta um desafio comum: a dificuldade de integrar máquinas agrícolas de diferentes fabricantes em uma única plataforma de monitoramento e controle. Cada marca (John Deere, Case IH, Valtra, entre outras) utiliza protocolos e sistemas próprios, o que limita a análise centralizada dos dados e prejudica a tomada de decisão em tempo real.</p>
+                    
+                    <h2>Objetivo do Projeto</h2>
+                    <p>Desenvolver um sistema inteligente de interoperabilidade agrícola que atue como um hub central de comunicação, capaz de integrar os dados provenientes de diversos equipamentos agrícolas, independentemente da marca. A solução visa melhorar a performance operacional e a eficiência logística em grandes plantações.</p>
+                    
+                    <div class="highlight-box">
+                        <h3>Diferenciais Técnicos</h3>
+                        <ul style="color: white; margin: 0;">
+                            <li>Criação de adaptadores lógicos (adapters) para unificar diferentes estruturas de dados</li>
+                            <li>Protocolo MQTT usado para comunicação em tempo real entre dispositivos e o hub</li>
+                            <li>Planejamento de um sistema escalável para conectar novas máquinas com mínimo retrabalho</li>
+                        </ul>
+                    </div>
+                    
+                    <h2>Arquitetura da Solução</h2>
+                    <p>O sistema foi desenvolvido com uma arquitetura modular que permite:</p>
+                    <ul>
+                        <li><strong>Camada de Comunicação:</strong> Protocolos MQTT e HTTP POST para conectividade universal</li>
+                        <li><strong>Camada de Adaptação:</strong> Adaptadores lógicos específicos para cada fabricante</li>
+                        <li><strong>Camada de Processamento:</strong> Backend em Python e Node.js para análise em tempo real</li>
+                        <li><strong>Camada de Apresentação:</strong> Dashboard intuitivo para visualização de dados</li>
+                    </ul>
+                    
+                    <h2>Implementação Técnica</h2>
+                    <p>A prototipação foi realizada em ambiente simulado utilizando Arduino para simular sensores de telemetria, coletando dados de:</p>
+                    <ul>
+                        <li>Velocidade de operação das máquinas</li>
+                        <li>Consumo de combustível em tempo real</li>
+                        <li>Posição GPS e rastreamento de rotas</li>
+                        <li>Status operacional e alertas de manutenção</li>
+                    </ul>
+                    
+                    <h2>Impacto e Resultados</h2>
+                    <p>A solução AgroTech representa um avanço significativo para o futuro das fazendas inteligentes:</p>
+                    <ul>
+                        <li><strong>Redução do tempo de parada:</strong> Monitoramento preditivo previne falhas</li>
+                        <li><strong>Aumento da visibilidade:</strong> Status completo da frota em tempo real</li>
+                        <li><strong>Otimização operacional:</strong> Dados unificados permitem decisões mais assertivas</li>
+                        <li><strong>Escalabilidade:</strong> Arquitetura preparada para crescimento exponencial</li>
+                    </ul>
+                    
+                    <h2>Futuro da Agricultura Conectada</h2>
+                    <p>O projeto AgroTech contribui para um futuro onde fazendas operam como sistemas inteligentes e conectados, integrando IoT, análise de dados e automação para maximizar a produtividade e sustentabilidade do agronegócio brasileiro. O desenvolvimento foi iniciado em janeiro de 2025 e está previsto para ser finalizado em dezembro deste mesmo ano.</p>
+                    
+                    <a href="../index.html#projects" class="back-button">
+                        <i class="fas fa-arrow-left"></i> Voltar aos Projetos
+                    </a>
+                </div>
+                
+                <div class="project-sidebar">
+                    <div class="project-meta">
+                        <h3>Detalhes do Projeto</h3>
+                        <div class="meta-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>2025 - Presente</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-users"></i>
+                            <span>Equipe multidisciplinar</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-building"></i>
+                            <span>Projeto acadêmico FIAP</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-seedling"></i>
+                            <span>Foco em agronegócio</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-hourglass-half"></i>
+                            <span>Status: Em desenvolvimento (Finalização: Dez/2025)</span>
+                        </div>
+                    </div>
+                    
+                    <h3>Tecnologias Utilizadas</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MQTT</span>
+                        <span class="tech-tag">HTTP POST</span>
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Dashboard</span>
+                        <span class="tech-tag">Telemetria</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span class="current-year">2025</span> Pedro Pedreira de Cerqueira. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

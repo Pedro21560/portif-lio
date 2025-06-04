@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Pedreira de Cerqueira | Select Language</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/language-selector.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="background-dots"></div>
+    
+    <div class="language-container">
+        <img src="https://public.youware.com/users-website-assets/prod/444b9f51-dad3-41fd-853b-e0f9aa4f249a/g26de83799ca51a9bbfab2dc47c48da4672716152a5cd650a46740e8c09f005f16fcc64438dc3b610b2f6f747bdf841583db579ce03e3ad8a1d2d98fa8d5d8ade_1280.jpg" alt="Pedro Pedreira de Cerqueira" class="profile-picture">
+        
+        <h1 class="title">Pedro Pedreira de Cerqueira</h1>
+        <p class="subtitle">Please select your preferred language</p>
+        
+        <div class="language-options">
+            <a href="en.html" class="language-card">
+                <i class="fas fa-globe-americas"></i>
+                <h3>English</h3>
+                <span class="language-code">EN-US</span>
+            </a>
+            
+            <a href="pt-br.html" class="language-card">
+                <i class="fas fa-globe-americas"></i>
+                <h3>Português</h3>
+                <span class="language-code">PT-BR</span>
+            </a>
+        </div>
+        
+        <p class="footer-text">Software Engineer | FIAP Student | Indaiatuba, São Paulo</p>
+    </div>
+    
+    <script>
+        // Check if user has a preferred language already stored
+        document.addEventListener('DOMContentLoaded', function() {
+            const preferredLanguage = localStorage.getItem('preferredLanguage');
+            
+            if (preferredLanguage) {
+                window.location.href = preferredLanguage + '.html';
+            }
+            
+            // Set preferred language when a language is selected
+            document.querySelectorAll('.language-card').forEach(card => {
+                card.addEventListener('click', function(e) {
+                    const lang = this.getAttribute('href').replace('.html', '');
+                    localStorage.setItem('preferredLanguage', lang);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

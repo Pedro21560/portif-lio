@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Pedreira de Cerqueira | Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Pedro Cerqueira</div>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#ml">Machine Learning</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="pt-br.html" class="language-switch"><i class="fas fa-globe"></i> PT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="https://public.youware.com/users-website-assets/prod/444b9f51-dad3-41fd-853b-e0f9aa4f249a/g26de83799ca51a9bbfab2dc47c48da4672716152a5cd650a46740e8c09f005f16fcc64438dc3b610b2f6f747bdf841583db579ce03e3ad8a1d2d98fa8d5d8ade_1280.jpg" alt="Pedro Pedreira de Cerqueira" class="hero-avatar">
+                <div class="hero-text">
+                    <h1>Pedro Pedreira de Cerqueira</h1>
+                    <p class="subtitle">Software Engineering Student</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Indaiatuba, São Paulo, Brazil</p>
+                    <p class="impact-phrase">"I believe technology must solve real problems. I'm passionate about building useful solutions with attention to code clarity and user experience."</p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button">View Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://www.linkedin.com/in/pedro-pedreira-de-cerqueira-78b340330/" target="_blank" class="cta-button secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-status">
+                <p class="project-status-notice">All projects below were started in 2025 and are in active development, scheduled for completion by December 2025.</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://public.youware.com/users-website-assets/prod/444b9f51-dad3-41fd-853b-e0f9aa4f249a/g950250ded38c91a099a3fa57a3f93c8cc7ddefb342724863ab6719a4ea5bf0db4d75fc1853f79df9d701779838677be8074bc380d24bd42115209f751e3364c3_1280.jpg" alt="AgroTech – Agricultural Machinery Integration">
+                    </div>
+                    <div class="project-content">
+                        <h3>AgroTech – Agricultural Machinery Integration</h3>
+                        <p>Data hub that connects machines from different brands via Python, Node.js and MQTT.</p>
+                        <p>Focus on interoperability in agribusiness.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge"><i class="fab fa-python"></i> Python</span>
+                            <span class="tech-badge"><i class="fab fa-js"></i> Node.js</span>
+                            <span class="tech-badge"><i class="fas fa-network-wired"></i> MQTT</span>
+                        </div>
+                        <a href="projetos/agrotech.html" class="project-button">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://public.youware.com/users-website-assets/prod/444b9f51-dad3-41fd-853b-e0f9aa4f249a/g8feff21b0b803ce1356c7cc8ca73f12b495fb2aa0780d5dea78aaa910208372c6717278c5964056a9b9b9b6c997b30980b407e578cf85ebe47c37850acefe446_1280.jpg" alt="After-Sales Platform – OTIS Elevators">
+                    </div>
+                    <div class="project-content">
+                        <h3>After-Sales Platform – OTIS Elevators</h3>
+                        <p>Digital portal with login, QR code and automatic updates for clients to track their construction status.</p>
+                        <p>Project focused on UX and future integration with real API.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge"><i class="fab fa-figma"></i> Figma</span>
+                            <span class="tech-badge"><i class="fab fa-java"></i> Java</span>
+                            <span class="tech-badge"><i class="fas fa-qrcode"></i> QR Code</span>
+                        </div>
+                        <a href="projetos/otis.html" class="project-button">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://public.youware.com/users-website-assets/prod/444b9f51-dad3-41fd-853b-e0f9aa4f249a/g38b58ae110ae058a35566ec4a494437e3aa9e2077d4908dae05c8e5f71fd20709da0a4d6ea252d3bfd3732f681d02566db8403a993dfe0284f642f06c53fe19d_1280.jpg" alt="Help Me! – Medical Emergencies in Crisis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Help Me! – Medical Emergencies in Crisis</h3>
+                        <p>P2P platform that connects volunteer doctors to crisis locations via geolocation and specialty.</p>
+                        <p>Prototype developed in Figma, with future vision for mobile app.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge"><i class="fab fa-figma"></i> Figma</span>
+                            <span class="tech-badge"><i class="fas fa-map-marked-alt"></i> Geolocation</span>
+                            <span class="tech-badge"><i class="fas fa-share-alt-square"></i> P2P</span>
+                        </div>
+                        <a href="projetos/helpme.html" class="project-button">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-intro">
+                <h2 class="section-title">Agile Solutions for Those Who Need Results</h2>
+                <p>Specialized development services focused on efficiency, clarity, and professional delivery.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">Simple Website Creation</h3>
+                    <div class="service-description">
+                        <p class="service-for"><strong>For whom:</strong> Freelancers, small businesses, portfolios.</p>
+                        <p><strong>What I deliver:</strong> Responsive page with WhatsApp button, social links and contact form.</p>
+                        <p><strong>Result:</strong> Immediate digital presence at low cost.</p>
+                    </div>
+                    <div class="service-tech">
+                        <span class="service-tech-tag">HTML</span>
+                        <span class="service-tech-tag">CSS</span>
+                        <span class="service-tech-tag">JS</span>
+                        <span class="service-tech-tag">GitHub Pages</span>
+                    </div>
+                    <a href="services/simple-websites.html" class="service-cta">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="service-title">Python Automation</h3>
+                    <div class="service-description">
+                        <p class="service-for"><strong>For whom:</strong> Companies and people who waste time on manual tasks.</p>
+                        <p><strong>What I deliver:</strong> Scripts to organize spreadsheets, rename files, generate reports or collect web data.</p>
+                        <p><strong>Result:</strong> Save hours of work per week.</p>
+                    </div>
+                    <div class="service-tech">
+                        <span class="service-tech-tag">Python</span>
+                        <span class="service-tech-tag">Pandas</span>
+                        <span class="service-tech-tag">Selenium</span>
+                    </div>
+                    <a href="services/python-automation.html" class="service-cta">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="service-title">Professional Dashboards</h3>
+                    <div class="service-description">
+                        <p class="service-for"><strong>For whom:</strong> Companies, startups and managers who need to visualize data.</p>
+                        <p><strong>What I deliver:</strong> Interactive panels with real or simulated data, custom metrics and advanced visualizations.</p>
+                        <p><strong>Result:</strong> Visualize data with impact and make informed decisions.</p>
+                    </div>
+                    <div class="service-tech">
+                        <span class="service-tech-tag">Chart.js</span>
+                        <span class="service-tech-tag">Power BI</span>
+                        <span class="service-tech-tag">SQL</span>
+                        <span class="service-tech-tag">API</span>
+                    </div>
+                    <a href="services/dashboards.html" class="service-cta">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- Machine Learning Section -->
+    <section id="ml" class="machine-learning">
+        <div class="container">
+            <h2 class="section-title">Machine Learning</h2>
+            <div class="ml-content">
+                <div class="ml-image">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="ml-text">
+                    <p>Pedro has been studying Machine Learning fundamentals with a focus on practical application to real-world problems.</p>
+                    <p>He has already applied classification models in academic projects with Python, exploring libraries such as Scikit-learn and Pandas.</p>
+                    <p>He has great interest in artificial intelligence applied to the financial sector and automated solutions.</p>
+                    <p>Currently studying topics such as regression, classification, and predictive analysis, with plans to advance to deep learning soon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-python"></i>
+                            <h4>Python</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js-square"></i>
+                            <h4>JavaScript</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Frameworks</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-react"></i>
+                            <h4>React</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-node-js"></i>
+                            <h4>Node.js</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <h4>MySQL</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <h4>MongoDB</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-git-alt"></i>
+                            <h4>Git</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-github"></i>
+                            <h4>GitHub</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-figma"></i>
+                            <h4>Figma</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Machine Learning</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-code-branch"></i>
+                            <h4>Scikit-learn</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-table"></i>
+                            <h4>Pandas</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-book"></i>
+                            <h4>Jupyter</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-details">
+                    <h3>Software Engineering – FIAP</h3>
+                    <p class="education-period">Expected Graduation: 2027</p>
+                    <p>Participation in multidisciplinary projects with social impact and digital innovation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content-simple">
+                <div class="contact-info-center">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>pedropedreiradecerqueira@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <p>+55 (19) 99614-5867</p>
+                        </div>
+                    </div>
+                    <div class="contact-social-section">
+                        <h3>Social Media</h3>
+                        <div class="contact-social">
+                            <a href="https://github.com/pedro-cerqueira" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/pedro-pedreira-de-cerqueira-78b340330/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span class="current-year">2025</span> Pedro Pedreira de Cerqueira. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
